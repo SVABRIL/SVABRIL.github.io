@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Museo Bello - Galería</title>
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header class="animate__animated animate__fadeInDown">
+        <div class="caja">
+            <h1> <img src="../imagenes/logo.png" alt="logo-alura"> </h1>
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="historia.html">Historia</a></li>
+                        <li><a href="galeria.html">Galería</a></li>
+                        <li><a href="informacion.html">Información</a></li>
+                        <li><a href="contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+        </div>
+    </header>
+    
+    <div class="titulo-historia animate__animated animate__backInDown">
+        <h1>Galería</h1>
+    </div>
+
+    <div class="caja-galeria">
+        <div class="texto-galeria  animate__animated animate__fadeInBottomRight">
+            <h1>Colección de Pintura</h1>
+            <br><br>
+            <p>España, México e Italia, obras firmadas por artistas extranjeros entre los que se cuentan: Murillo, Zurbarán,
+                Goya, Benllieure, Vedoya, Martí y Alcina, Degrein, Markó, Borgraf y los mexicanos: Miguel Cabrera, Vallejo,
+                Ibarrarán y Ponce, Agustín Arrieta, Francisco Morales, Luis Lagarto, Mariano Caro, Daniel e Ignacio Dávila,
+                los hermanos Márquez, etc. <br><br>
+                Predominan los temas religiosos y en el orden civil retratos, paisajes y algunas composiciones, abarcando
+                desde el siglo XV hasta el XX.</p>
+        </div>
+       
+    </div>
+
+    <div class="primeros-carruseles">
+
+        <div class="contenedor-carrusel" data-slide-index="0">
+    
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel1/anonimoCabezaVirgen.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel1/borgrafTransitoSanFrancisco.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel1/girecaultTorsoDeHombre.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel1/goyaGrabadoDuque.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel1/manzoAutorretratro.jpg" alt="carrusel">
+            </div>
+           
+            <div class="control">
+                <div class="carrusel-control carrusel-prev" onclick="prevSlide(0)">&#10094;</div>
+                <div class="carrusel-control carrusel-next" onclick="nextSlide(0)">&#10095;</div>
+            </div>
+        
+        </div>
+
+        <div class="contenedor-carrusel" data-slide-index="0">
+    
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel2/anonimoMilagroSanAntonio.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel2/anonimoVisitacionMaria.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel2/arrietaDosBodegones12.jpg" alt="carrusel">
+            </div>
+           
+            <div class="control">
+                <div class="carrusel-control carrusel-prev" onclick="prevSlide(1)">&#10094;</div>
+                <div class="carrusel-control carrusel-next" onclick="nextSlide(1)">&#10095;</div>
+            </div>
+        
+        </div>
+    </div>
+
+
+    <div class="caja-galeria-iz">
+
+        <div class="caja-galeria-texto-iz">
+            <h1>Colección de<br>Muebles</h1>
+            <p>En siete salas del museo se aprecia diferente mobiliario.
+                De estilo Renacimiento Italiano es el
+                comedor. Primer Imperio Francés la recámara y
+                Segundo Imperio Francés la Sala compuesta por
+                29 piezas incrustadas en concha de abulón, la
+                Biblioteca y Sala de pintura española con mobiliario
+                poblano de estilo Barroco y Chippendale predominando
+                el siglo XIX, algunos de los siglos
+                XVII y XVIII además de muebles diversos trabajados
+                en marquetería con hueso, carey, bronce y
+                madera, los cuales se conservan en excelentes
+                condiciones.</p>
+        </div>
+
+        <div class="contenedor-carrusel" data-slide-index="0">
+    
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel3/bargueno.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel3/comedor.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel3/manifestador.jpg" alt="carrusel">
+            </div>
+           
+            <div class="control">
+                <div class="carrusel-control carrusel-prev" onclick="prevSlide(2)">&#10094;</div>
+                <div class="carrusel-control carrusel-next" onclick="nextSlide(2)">&#10095;</div>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <div class="caja-galeria">
+        <div class="texto-galeria">
+            <h1>Colección de Escultura</h1>
+            <br><br>
+            <p>Bronces de lo siglos: XVII, XVIII, XIX y XX, de la India,
+                Francia, Italia y México. De mármol de los siglos: XIX y
+                XX, de Italia. <br>
+                En madera destaca la talla de origen guatemalteco del
+                siglo XVIII.</p>
+        </div>
+
+    </div>
+
+    <div class="contenedor-carrusel" data-slide-index="0">
+    
+        <div class="carrusel-slide">
+            <img src="../imagenes/carrusel4/luisXIV.jpg" alt="carrusel">
+        </div>
+        <div class="carrusel-slide">
+            <img src="../imagenes/carrusel4/margarita.jpg" alt="carrusel">
+        </div>
+        <div class="carrusel-slide">
+            <img src="../imagenes/carrusel4/relojVieux.jpg" alt="carrusel">
+        </div>
+       
+        <div class="control">
+            <div class="carrusel-control carrusel-prev" onclick="prevSlide(3)">&#10094;</div>
+            <div class="carrusel-control carrusel-next" onclick="nextSlide(3)">&#10095;</div>
+        </div>
+    
+    </div>
+
+    <div class="caja-galeria-iz" id="porcelana">
+
+        <div class="caja-galeria-texto-iz" id="porcelana-1">
+            <h1>Colección de<br>Porcelana</h1>
+            <p>Piezas de uso decorativo para las casas del siglo XIX, procedentes de
+                Francia de la marca Biscuit, Sevres, Limoges en jarrones, floreros, relojes,
+                además de piezas de uso doméstico y vajillas completas de Alemania,
+                Austria e Inglaterra. <br>
+                Juegos completos de cristal de Baccarat de estilo Art Nouveau, además
+                de una gran variedad de diseños, colorido y procedencia en vasos,
+                copas, platos, fruteros, pisapapeles, etc. Las figuras talladas en marfil
+                tanto de China como de Italia, objetos de bronce de personajes de la historia
+                y mitología griega, esmaltes franceses, mantillas y abanicos de uso
+                personal de doña Julia, además de sus labores de costura en tejidos.
+                Objetos de madera bañados de laca e incrustaciones de concha de abulón
+                Tocante a piezas de plata mexicana se exponen tanto en orden religioso
+                como civil, además de alpaca en cuchillería, fruteros, servicio de té.</p>
+        </div>
+
+        <div class="contenedor-carrusel" data-slide-index="0">
+    
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel5/jarronSevres.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel5/tibor.jpg" alt="carrusel">
+            </div>
+            <div class="carrusel-slide">
+                <img src="../imagenes/carrusel5/vajilla.jpg" alt="carrusel">
+            </div>
+           
+            <div class="control">
+                <div class="carrusel-control carrusel-prev" onclick="prevSlide(4)">&#10094;</div>
+                <div class="carrusel-control carrusel-next" onclick="nextSlide(4)">&#10095;</div>
+            </div>
+        
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="footer-azul">
+            <p>5 DE MAYO 409, CENTRO<br>
+                PUEBLA, PUE. 72000 MEXICO</p>
+            <p>TEL +52 (222) 232 4720</p>
+        </div>
+        <div class="footer-contacto">
+            <p>CONCTACTO@MUSEOBELLO.ORG</p>
+        </div>
+        
+    </footer>
+
+    <script src="../js/carrusel.js"></script>
+
+</body>
+</html>
